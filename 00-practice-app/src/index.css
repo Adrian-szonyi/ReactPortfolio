@@ -1,13 +1,430 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Added above as original webpage was larger than content displayed*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    width: 100%;
+    z-index: 3;
+  }
+
+  .header ul {
+    margin: 15px;
+    font-size: 25px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    opacity: 80%;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 40px;
+    margin: 15px;
+    opacity: 80%;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  #menubtn {
+    background-color: #f4f4f4;
+    opacity: 80%;
+  }
+  
+  .logo {
+    background-color: #f4f4f4;
+  }
+  .header .menu {
+    clear: both;
+    opacity: 80%;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #f4f4f4;
+    float: right;
+    margin: 14px;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+    
+  }
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+      background-color: #f4f4f4;
+    }
+    .header .menu-icon {
+      display: none;
+      background-color: #f4f4f4;
+    }
+  }
+
+header {
+    font-family: 'Merriweather', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 2000px;
+    background-image: url(https://images.pexels.com/photos/7014946/pexels-photo-7014946.jpeg?cs=srgb&dl=pexels-george-milton-7014946.jpg&fm=jpg);
+    BACKGROUND-IMAGE: center;
+    background-repeat: NO-REPEAT;
+    max-height: 700px;
+    background-size: cover;
+    image-orientation: 100px;
+    background-position: center center;
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 850px) {
+    .row, .row2, #funnight {
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-top: 2px;
+ }
+}
+
+
+#project {
+font-weight: bolder;
+text-decoration: underline;
+}
+
+
+button {
+    align-items: center;
+    background-color: #566574;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about-me {
+    display: flex;
+    font-family: 'Merriweather',serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    top: 100px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerimage {
+    max-width: 71px;
+    max-height: 72px;
+    background-color: transparent;
+}
+#footerimage1 {
+    max-width: 40px;
+    max-height: 72px;
+}
+
+#email {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#socials {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+#about-me-description {
+    margin: 20px;
+    font-family: 'Merriweather',serif;
+    text-align: left;
+    max-width: 650px;
+    font-size: 18px;
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot {
+    max-width: 250px;
+    max-height: 166px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    font-family: 'Merriweather',serif;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+
+#image1 {
+    position: relative;
+    width: fit-content;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+    padding: 4px;
+}
+
+#image3 {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+}
+
+#image2 {
+    position: relative;
+    width: fit-content;
+    padding-right: 10px;
+    margin-left: 0;
+    margin-right: auto;
+    display: block;
+}
+
+
+#Horiseon {
+position: relative;
+left: 0px;
+}
+
+.row2 {
+    display: inline-flex;
+    font-family: 'Merriweather',serif;
+    font-size: 18px;
+}
+
+#funnighttext {
+    color:rgb(50, 50, 107);
+    margin-top: auto;
+    font-size: 18px;
+
+}
+
+#funnight {
+    align-content: center;
+    text-align: webkit-left;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+section h2:hover{
+    text-decoration: underline;
+}
+
+img {
+    padding: 4px;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    font-family: 'Merriweather',serif;
+    margin: 20px;
+    border-width: medium;
+    font-size: 18px;
+    border: solid, 5px;
+    border-radius: 1rem;
+    width: 100%;
+    border-color: rgb(50, 50, 107);
+}
+
+.Books {
+    display: inline-flex;
+    font-family: 'Merriweather',serif;
+    position: relative;
+    top: -58px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#book1, #book2, #book3 {
+  margin-left: auto;
+  margin-right: auto;
+    max-height: 300px;
+    margin: 10px;
+} 
+
+/* hover grow effect for book images */
+
+.grow { transition: all .3s ease-in-out; }
+.grow:hover { transform: scale(1.03);
+border-radius: 2rem;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+#resumebutton {
+    margin-left: 28px;
+}
+
+.BookHeading {
+  color: rgb(50, 50, 107);
+  margin-top: 100px;
+  padding: 37px 20px;
+  font-size: 27px;
+  font-family: 'Merriweather',serif;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ footer {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+h3 {
+    color: rgb(50, 50, 107);
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+#footerimage3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 118px;
+    max-height: 88px;
+}
+
+.footer-p {
+max-height: 50px;
+}
+
+.BookHeading {
+    width: 100%;
+    max-height: 50px;
 }
