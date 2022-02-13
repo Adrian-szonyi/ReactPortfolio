@@ -12,13 +12,13 @@ const Portfolio = () => {
       </div>
       </figure>
       <figure className="Horiseon">
-        <a href="https://adrian-szonyi.github.io/FunNightIn/"><img className="image1 grow" src="./Assets/Images/funnightin.PNG" alt="FunNightIn website"/></a>
+        <a href="https://adrian-szonyi.github.io/FunNightIn/"><img className="image1 grow" src="/images/funnightin.PNG" alt="FunNightIn website"/></a>
   </figure>
       <div className="row">
-      <figure className="image2">
+      <figure className="image2 grow">
         <a href="https://adrian-szonyi.github.io/WeatherApp/"><img
-          src="/images/weatherapp.PNG"
-          className="grow"
+          src="/images/wather.png"
+          className='image2'
           alt="Adrian's weatherapp"/></a>
       </figure>
       <div className='funnight'>
@@ -27,12 +27,11 @@ const Portfolio = () => {
       </div>
       <div className="row">
           <div className='funnight'>
-            <span className="project">DayPlanner</span>Fill out your task list for the day.<button><a href="https://github.com/Adrian-szonyi/DayPlanner">Github project</a></button>
-      <figure>
+          <p className="funnighttext"><span className="project">DayPlanner</span>Fill out your task list for the day.<button><a href="https://github.com/Adrian-szonyi/DayPlanner">Github project</a></button></p>
+      <figure className="image3 grow">
         <a href="https://adrian-szonyi.github.io/DayPlanner/Develop/index.html"><img
-          id="image3"
-          className="grow"
-          src="./Assets/Images/DayPlanner.png"
+          className="image3 grow"
+          src="/images/DayPlanner.png"
           alt="Laptop next to some pens and a notepad"/></a>
       </figure>
     </div>
@@ -44,18 +43,18 @@ const Portfolio = () => {
     <figure>
       <img 
         className="book1"
-        src="./Assets/Images/WealthandPower.jpg"
+        src="/images/WealthandPower.jpg"
         alt="Red book cover of Wealth and Power"/>
     </figure>
     <figure>
       <img 
         className="book2"
-        src="./Assets/Images/Thesquareandthetower.jpg"
+        src="/images/Thesquareandthetower.jpg"
         alt="Book cover of the Square and the Spire"/>
     </figure>
     <figure>
       <img className="book3"
-        src="./Assets/Images/Thenewsilkroads.jpg"
+        src="images/Thenewsilkroads.jpg"
         alt="Book cover of the New Silk Roads"/>
     </figure>
   </section>
