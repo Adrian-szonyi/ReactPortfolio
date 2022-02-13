@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,8 +9,12 @@ const Header = () => {
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
       <ul className="menu">
-        <li><a href="#MyWork">My Work</a></li>
-        <li><a href="#about-me">About</a></li>
+      <li><Link  to="/Portfolio">
+                Portfolio
+              </Link></li>
+              <li><Link  to="/">
+                About
+              </Link></li>
         <li><a href="#email">Contact</a></li>
       </ul>
       </div>
