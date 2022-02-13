@@ -196,7 +196,7 @@ text-decoration: underline;
 
 button {
     align-items: center;
-    background-color: #566574;
+    background-color: #a8aeb5;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
@@ -226,7 +226,7 @@ button {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #6841d5;
     font-weight: bold;
 }
 
@@ -316,6 +316,7 @@ section {
 .image2 {
     position: relative;
     width: 1000px;
+    height: fit-content;
     padding-right: 10px;
     margin-left: 0;
     margin-right: auto;
