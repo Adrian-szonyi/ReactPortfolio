@@ -1,6 +1,13 @@
 import React from 'react';
 import FunnightIn from '../images/funnightin.PNG'
 import WeatherApp from '../images/wather.png'
+import DayPlanner from '../images/DayPlanner.png'
+import TeamFit from '../images/teamfit123123.herokuapp.com_ (1).png'
+import NoteTaker from '../images/notetaker app.png'
+import BookSearch from '../images/localhost_3000_.png'
+import Square from '../images/Thesquareandthetower.jpg'
+import SilkRoad from '../images/Thenewsilkroads.jpg'
+import Wealth from '../images/WealthandPower.jpg'
 
 const Portfolio = () => {
   return (
@@ -31,7 +38,7 @@ const Portfolio = () => {
       <div className="row">
       <figure className="image2 grow">
         <a href="https://adrian-szonyi.github.io/DayPlanner/Develop/index.html"><img
-          src="/images/DayPlanner.png"
+          src={DayPlanner}
           className='image2'
           alt="Adrian's DayPlanner"/></a>
       </figure>
@@ -42,7 +49,7 @@ const Portfolio = () => {
       <div className="row">
       <figure className="image2 grow">
         <a href="https://teamfit123123.herokuapp.com/"><img
-          src="/images/teamfit123123.herokuapp.com_ (1).png"
+          src={TeamFit}
           className='image2'
           alt="Adrian's TeamFit"/></a>
       </figure>
@@ -53,7 +60,7 @@ const Portfolio = () => {
       <div className="row">
       <figure className="image2 grow">
         <a href="https://dry-depths-40629.herokuapp.com/"><img
-          src="/images/localhost_3000_.png"
+          src={BookSearch}
           className='image2'
           alt="Adrian's booksearch"/></a>
       </figure>
@@ -64,7 +71,7 @@ const Portfolio = () => {
       <div className="row">
       <figure className="image2 grow">
         <a href="https://adrian-szonyi.github.io/NoteTaker"><img
-          src="./build/images/notetaker app.png"
+          src={NoteTaker}
           className='image2'
           alt="Adrian's NoteTaker"/></a>
       </figure>
@@ -80,18 +87,18 @@ const Portfolio = () => {
     <figure>
       <img 
         className="book1"
-        src="/images/WealthandPower.jpg"
+        src={Wealth}
         alt="Red book cover of Wealth and Power"/>
     </figure>
     <figure>
       <img 
         className="book2"
-        src="/images/Thesquareandthetower.jpg"
+        src={Square}
         alt="Book cover of the Square and the Spire"/>
     </figure>
     <figure>
       <img className="book3"
-        src="images/Thenewsilkroads.jpg"
+        src={SilkRoad}
         alt="Book cover of the New Silk Roads"/>
     </figure>
   </section>
