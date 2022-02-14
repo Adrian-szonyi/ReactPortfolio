@@ -62,7 +62,7 @@ const Portfolio = () => {
       <div className="row">
       <figure className="image2 grow">
         <a href="https://adrian-szonyi.github.io/NoteTaker"><img
-          src="/images/notetaker app.png"
+          src="./build/images/notetaker app.png"
           className='image2'
           alt="Adrian's NoteTaker"/></a>
       </figure>
