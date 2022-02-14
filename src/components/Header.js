@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <div className="header">
       <div></div>
-      <a href="https://adrian-szonyi.github.io/AdrianSzonyiPortfolio/" className="logo">Adrian Szonyi</a>
+      <a href="https://adrian-szonyi.github.io/ReactPortfolio/" className="logo">Adrian Szonyi</a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
       <ul className="menu">
       <li><Link  to="/Portfolio">
                 Portfolio
               </Link></li>
-              <li><Link  to="/">
+              <li><Link  to="/ReactPortfolio">
                 About
               </Link></li>
               <li><Link  to="/contact">
