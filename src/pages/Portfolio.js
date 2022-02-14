@@ -1,4 +1,6 @@
 import React from 'react';
+import FunnightIn from '../images/funnightin.PNG'
+import WeatherApp from '../images/wather.png'
 
 const Portfolio = () => {
   return (
@@ -7,9 +9,9 @@ const Portfolio = () => {
 <div className="row">
       <figure className="image2 grow">
         <a href="https://adrian-szonyi.github.io/FunNightIn/"><img
-          src="/images/funnightin.PNG"
+          src={FunnightIn}
           className='image2'
-          alt="Adrian's weatherapp"/></a>
+          alt="Adrian's Funnightin"/></a>
       </figure>
       <div className='funnight'>
         <p className="funnighttext"><span className="project">A Fun Night In<br></br></span> Let fate decide your evening with a random movie and meal suggestion.<br></br><button><a href="https://github.com/Adrian-szonyi/FunNightIn">Github project</a></button></p>
@@ -18,7 +20,7 @@ const Portfolio = () => {
       <div className="row">
       <figure className="image2 grow">
         <a href="https://adrian-szonyi.github.io/WeatherApp/"><img
-          src="/images/wather.png"
+          src={WeatherApp}
           className='image2'
           alt="Adrian's weatherapp"/></a>
       </figure>
