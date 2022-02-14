@@ -10,6 +10,8 @@ const Contact = () => {
 
     <label for="lname">Last Name</label>
     <input type="text" className="inputfield" id="lname" name="lastname" placeholder="Your last name.."></input>
+    <label for="email">Email</label>
+    <input type="text" className="inputfield" id="email" name="email" placeholder="Your email.." pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required ></input>
 
     <label for="country">Country</label>
     <select id="country" name="country">
