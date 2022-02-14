@@ -7,8 +7,8 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^3.2.3",
-    "homepage": "https://AdrianSzonyiReactPortfolio1.com",
     "react": "^17.0.2",
+    "homepage": "https://adrian-szonyi.github.io/ReactPortfolio",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
@@ -18,8 +18,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-        "start": "react-scripts start",
-        "build": "react-scripts build"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
