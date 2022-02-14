@@ -1,16 +1,14 @@
 import React from 'react';
-import Linkedin from '../images/linkedin.png'
-
 
 const Footer = () => {
   return (
     <footer>
     <div className="socials">
-    <a href="https://github.com/Adrian-szonyi"><img className="grow" id="footerimage1" src="/images/githubi.png" alt="github"></img>
+    <a href="https://github.com/Adrian-szonyi"><img className="grow" id="footerimage1" src={"/images/githubi.png"} alt="github"></img>
     </a>
-    <a href="https://www.linkedin.com/in/adrian-szonyi-3622514b/"><img className="grow" id="footerimage"  src={Linkedin}  alt="linkedin"></img>
+    <a href="https://www.linkedin.com/in/adrian-szonyi-3622514b/"><img className="grow" id="footerimage" src={"/images/linkedin.png"}  alt="Linkedin"></img>
     </a>
-    <a href="https://www.instagram.com/adrian_szonyi/?hl=en"><img className="grow" id="footerimage" src={"/images/instagrami.png"}  alt="instagram"></img>
+    <a href="https://www.instagram.com/adrian_szonyi/?hl=en"><img className="grow" id="footerimage" src={"/images/instagram.png"}  alt="instagram"></img>
     </a>
   </div>
   <div id="email">
