@@ -1,20 +1,27 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.62724b2f.css",
-    "main.js": "/ReactPortfolio/static/js/main.39ced6ea.js",
+    "main.js": "/ReactPortfolio/static/js/main.0aadb3e0.js",
     "static/js/787.43c6f2b5.chunk.js": "/ReactPortfolio/static/js/787.43c6f2b5.chunk.js",
+    "static/media/Thesquareandthetower.jpg": "/ReactPortfolio/static/media/Thesquareandthetower.4f3e9ff00f56f28253b4.jpg",
+    "static/media/teamfit123123.herokuapp.com_ (1).png": "/ReactPortfolio/static/media/teamfit123123.herokuapp.com_ (1).e932f7ad99d37f8eb610.png",
     "static/media/funnightin.PNG": "/ReactPortfolio/static/media/funnightin.d87e712da10cd9be3671.PNG",
+    "static/media/localhost_3000_.png": "/ReactPortfolio/static/media/localhost_3000_.8828c627bab4d9214324.png",
+    "static/media/DayPlanner.png": "/ReactPortfolio/static/media/DayPlanner.f958ef732987705086b2.png",
     "static/media/wather.png": "/ReactPortfolio/static/media/wather.87d52b731fd7b35fbcff.png",
+    "static/media/Thenewsilkroads.jpg": "/ReactPortfolio/static/media/Thenewsilkroads.dc0b164f2cd0d821f586.jpg",
     "static/media/instagram.png": "/ReactPortfolio/static/media/instagram.dce6ec2427c37de58257.png",
+    "static/media/notetaker app.png": "/ReactPortfolio/static/media/notetaker app.915d2c950a6c8f7897de.png",
     "static/media/linkedin.png": "/ReactPortfolio/static/media/linkedin.c478a321aff81115ca75.png",
     "static/media/1575168097728.jfif": "/ReactPortfolio/static/media/1575168097728.e34f27d50144e524ddb3.jfif",
+    "static/media/WealthandPower.jpg": "/ReactPortfolio/static/media/WealthandPower.64da2c65dbdecd6e6b2f.jpg",
     "index.html": "/ReactPortfolio/index.html",
     "main.62724b2f.css.map": "/ReactPortfolio/static/css/main.62724b2f.css.map",
-    "main.39ced6ea.js.map": "/ReactPortfolio/static/js/main.39ced6ea.js.map",
+    "main.0aadb3e0.js.map": "/ReactPortfolio/static/js/main.0aadb3e0.js.map",
     "787.43c6f2b5.chunk.js.map": "/ReactPortfolio/static/js/787.43c6f2b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62724b2f.css",
-    "static/js/main.39ced6ea.js"
+    "static/js/main.0aadb3e0.js"
   ]
 }
