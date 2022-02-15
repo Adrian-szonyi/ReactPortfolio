@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.62724b2f.css",
+    "main.css": "/ReactPortfolio/static/css/main.95fb0f9b.css",
     "main.js": "/ReactPortfolio/static/js/main.0aadb3e0.js",
     "static/js/787.43c6f2b5.chunk.js": "/ReactPortfolio/static/js/787.43c6f2b5.chunk.js",
     "static/media/Thesquareandthetower.jpg": "/ReactPortfolio/static/media/Thesquareandthetower.4f3e9ff00f56f28253b4.jpg",
@@ -16,12 +16,12 @@
     "static/media/1575168097728.jfif": "/ReactPortfolio/static/media/1575168097728.e34f27d50144e524ddb3.jfif",
     "static/media/WealthandPower.jpg": "/ReactPortfolio/static/media/WealthandPower.64da2c65dbdecd6e6b2f.jpg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.62724b2f.css.map": "/ReactPortfolio/static/css/main.62724b2f.css.map",
+    "main.95fb0f9b.css.map": "/ReactPortfolio/static/css/main.95fb0f9b.css.map",
     "main.0aadb3e0.js.map": "/ReactPortfolio/static/js/main.0aadb3e0.js.map",
     "787.43c6f2b5.chunk.js.map": "/ReactPortfolio/static/js/787.43c6f2b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62724b2f.css",
+    "static/css/main.95fb0f9b.css",
     "static/js/main.0aadb3e0.js"
   ]
 }
